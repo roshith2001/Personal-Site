@@ -243,6 +243,7 @@ h3{
     padding: 3%;
     padding-bottom: 50px;
     box-shadow: 0 0 15px 0 rgba(114, 114, 114, 0.6);
+    border-radius: 2px;
 }
 #bars{
     width:100%;
@@ -435,8 +436,8 @@ h3{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 0px;
     box-shadow: 0 0 15px 0 rgba(114, 114, 114, 0.6);
+    border-radius: 2px;
 }
 #content::before{
     content: "";
@@ -445,3 +446,16 @@ h3{
     top: 0px;
     background: #49a660;
 }
+#content h4{
+    font-family: 'Roboto';
+    font-weight: 200px;
+    font-size: 18px;
+    color: #2E2E2E;
+}
+#content p{
+    font-family: 'Roboto';
+    font-weight: 200px;
+    font-size: 14px;
+    color: #2E2E2E;
+}
+
