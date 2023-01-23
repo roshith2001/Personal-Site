@@ -35,7 +35,7 @@ h3{
 }
 #menu{
     width: 75%;
-    height: 70px;
+    height: 4.375em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,6 +73,14 @@ h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     transition: 0.3s;
+}
+#mMenu{
+    display: none;
+}
+#hamburger{
+    display: none;
+    font-size: 24px;
+    user-select: none;
 }
 #list_item a:hover,
 #list_item a.active{
@@ -640,3 +648,4 @@ form{
     background: #49a660;
     margin: 0 auto;
 }
+
