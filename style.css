@@ -513,7 +513,7 @@ form{
     color: #49a660;
 }
 .fmdsng::placeholder{
-    color:#6A6A6A;
+    color:#aaaaaa;
 }
 .fmdsng:focus::placeholder{
     color:#49a660;
