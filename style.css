@@ -33,6 +33,9 @@ h3{
     justify-content: space-around;
     
 }
+#hamburger{
+    display: none;
+}
 #menu{
     width: 75%;
     height: 4.375em;
@@ -53,7 +56,7 @@ h3{
     padding: 0px 30px;
     font-family: 'Libre Barcode 128 Text', cursive;
 }
-#menu ul{
+#menubar{
     list-style: none;
     display: flex;
     flex-direction: row;

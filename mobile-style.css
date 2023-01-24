@@ -26,13 +26,47 @@
     #menu{
         width: 100vw;
         left: 0;
+        display: block;
+        position: fixed;
+    }
+    #menubar{
+        width: 100%; 
+        display: none;
+        background: inherit;
+        text-align: center;
+        padding: 20px 0;
     }
     #logo{
         font-size: 1.7em;
-        padding: 0 0.6em;
+        padding: 0px 0.6em;
+        position: absolute;
+        left: 0;
+        top: 25px;
     }
-    #menu ul{
+    #list_item{
+        padding: 5px 0;
+    }
+    #list_item a{
+        font-size: 20px;
+        font-weight: 300;
+        
+    }
+    .mNot{
         display: none;
+    }
+    #list_item a.active::after {
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        padding: 0 30px;
+        padding-top: 25px;
+        text-decoration: none;
+        text-align: right;
+        color: inherit;
+    }
+    #hamburger:hover{
+        color: #49a660;
     }
     #profile{
         width: 100vw;

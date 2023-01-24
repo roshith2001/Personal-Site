@@ -14,13 +14,16 @@
         <span>
             <div id="menu">
             <a href="#" id="logo">Roshith Krishna P</a>
-            <ul>
+            <a href="javascript:void(0);" id="hamburger" onclick="myFunction()">
+                <i class="fa fa-bars fa-lg"></i>
+              </a>
+            <ul id="menubar">
                 <li id="list_item"><a class="active" href="index.html">About</a></li>
                 <li id="list_item"><a href="#skills">Skills</a></li>
                 <li id="list_item"><a href="#education">Education</a></li>
                 <li id="list_item"><a href="#contact">Contact</a></li>
                 <li id="list_item"><a href="Assets/Dream CV.pdf" target="_blank">Download CV</a></li>
-                <li id="list_item"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                <li id="list_item" class="mNot"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
             </ul>
         </div>
     </span>
@@ -189,4 +192,14 @@
         </div>
     </section>
 </body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("menubar");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 </html>
