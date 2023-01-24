@@ -74,14 +74,7 @@ h3{
     font-weight: 400;
     transition: 0.3s;
 }
-#mMenu{
-    display: none;
-}
-#hamburger{
-    display: none;
-    font-size: 24px;
-    user-select: none;
-}
+
 #list_item a:hover,
 #list_item a.active{
     color: #49a660;
