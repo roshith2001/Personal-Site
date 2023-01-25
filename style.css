@@ -645,3 +645,29 @@ form{
     background: #49a660;
     margin: 0 auto;
 }
+#back2top{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#top{
+    width: 100%;
+    color: #2E2E2E;
+}
+#top span{
+    position: fixed;
+    top: 90%;
+    right: 3%;
+    z-index: 999;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    background: rgba(73, 166, 96,0.4);
+    color: #FFF;
+    box-shadow: 0 0 15px 0 rgba(114, 114, 114, 0.6);
+    border-radius: 50%;
+    text-align: center;
+}
+#top span:hover{
+    background: rgba(73, 166, 96,1);
+}

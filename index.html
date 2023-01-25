@@ -193,6 +193,11 @@
             <div id="line"></div>
         </div>
     </section>
+    <section id="back2top">
+        <div id="top">
+            <a href="#"><span><i class="fa-solid fa-arrow-up fa-lg"></i></span></a>
+        </div>
+    </section>
 </body>
 <script>
     function myFunction() {
@@ -213,6 +218,14 @@
             $("#menubar li a").click(function(){
                 $("#menubar li a").removeClass('active');
                 $(this).toggleClass('active');
+            });
+            $("#logo").click(function(){
+                $("#menubar li a").removeClass('active');
+                $("#topmenu").toggleClass('active');
+            });
+            $("#top span").click(function(){
+                $("#menubar li a").removeClass('active');
+                $("#topmenu").toggleClass('active');
             });
         });
     </script>
