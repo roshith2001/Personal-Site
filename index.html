@@ -8,6 +8,8 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="mobile-style.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a868da2a86.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
+    </script>
 </head>
 <body>
     <section id="background">
@@ -18,7 +20,7 @@
                 <i class="fa fa-bars fa-lg"></i>
               </a>
             <ul id="menubar">
-                <li id="list_item"><a class="active" href="#background" onclick="myFunction()">About</a></li>
+                <li id="list_item"><a class="active" id="topmenu" href="#background" onclick="myFunction()">About</a></li>
                 <li id="list_item"><a href="#skills" onclick="myFunction()">Skills</a></li>
                 <li id="list_item"><a href="#education" onclick="myFunction()">Education</a></li>
                 <li id="list_item"><a href="#contact" onclick="myFunction()">Contact</a></li>
@@ -205,5 +207,13 @@
         x.style.display="block";
       }
     }
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#menubar li a").click(function(){
+                $("#menubar li a").removeClass('active');
+                $(this).toggleClass('active');
+            });
+        });
     </script>
 </html>
