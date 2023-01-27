@@ -151,6 +151,9 @@ h3{
 #ln:hover{
     color: #0072b1;
 }
+#gh:hover{
+    color: #333333;
+}
 #details{
     padding: 20px 20px;
 }
