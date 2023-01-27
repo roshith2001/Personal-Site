@@ -35,6 +35,7 @@
         background: inherit;
         text-align: center;
         padding: 20px 0;
+        padding-top: 50px;
     }
     #logo{
         font-size: 1.7em;
@@ -58,14 +59,16 @@
         display: none;
     }
     #hamburger{
+        width: 2%;
+        height: auto;
         display: block;
-        padding: 0 30px;
-        padding-top: 25px;
+        padding: 25px 30px;
         text-decoration: none;
-        text-align: right;
-        color: inherit;
+        color: #2E2E2E;
+        position: absolute;
+        right: 0;
     }
-    #hamburger:hover{
+    #hamburger:focus{
         color: #49a660;
     }
     #profile{
