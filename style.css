@@ -3,6 +3,7 @@
 *{
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    scroll-padding-top: 50px;
 }
 body{
     width: 100%;
@@ -91,7 +92,7 @@ h3{
     position: absolute;
     bottom: -25px;
     left: 0px;
-    animation: slide 0.3s ease-in;
+    animation: slide 0.3s linear;
 }
 @keyframes slide {
     0%{
