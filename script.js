@@ -36,7 +36,7 @@ $(document).ready(function() {
     var isImage1 = true;
     $("#img1").click(function() {
         var imageUrl =
-"https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg";
+"https://cdn.pixabay.com/photo/2016/06/16/13/00/rain-stoppers-1461288_1280.jpg";
         var imageUrl1 = "Assets/background_hungry.jpg";
         if(isImage1){
             $("#background span").css("background-image", "url(" + imageUrl + ")");
@@ -51,7 +51,7 @@ $(document).ready(function() {
     });
 
     $("#img2").click(function() {
-        var imageUrl = "https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg";
+        var imageUrl = "https://cdn.pixabay.com/photo/2013/11/28/10/36/road-220058_1280.jpg";
         var imageUrl1 = "Assets/background_hungry.jpg";
         if(isImage1){
             $("#background span").css("background-image", "url(" + imageUrl + ")");
@@ -66,7 +66,7 @@ $(document).ready(function() {
     });
 
     $("#img3").click(function() {
-        var imageUrl = "https://thumbs.dreamstime.com/b/wild-flowers-plant-summer-autumn-nature-background-banner-website-55976971.jpg";
+        var imageUrl = "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg";
         var imageUrl1 = "Assets/background_hungry.jpg";
         if(isImage1){
             $("#background span").css("background-image", "url(" + imageUrl + ")");
@@ -81,7 +81,7 @@ $(document).ready(function() {
     });
 
     $("#img4").click(function() {
-        var imageUrl = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg";
+        var imageUrl = "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg";
         var imageUrl1 = "Assets/background_hungry.jpg";
         if(isImage1){
             $("#background span").css("background-image", "url(" + imageUrl + ")");
