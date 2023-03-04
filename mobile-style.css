@@ -310,4 +310,10 @@
     #foot{
         width:90%;
     }
+    #to-edit{
+        width: 30%;
+        left: 56%;
+        top: 52%;
+    }
+    
 }

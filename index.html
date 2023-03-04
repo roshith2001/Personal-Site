@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roshith Krishna P</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="style.css"  rel="stylesheet">
     <link href="mobile-style.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a868da2a86.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
@@ -196,6 +196,19 @@
         </div>
     </section>
     <section id="back2top">
+        <div id="edit">
+            <a href="#"><span><i class="fa-solid fa-gear"></i></span></a>
+        </div>
+            <div class="hide" id="to-edit">
+                <h4>Choose Background</h4>
+                <div id="img-holder">
+                    <div class="image-container" id="img1"></div>
+                    <div class="image-container" id="img2"></div>
+                    <div class="image-container" id="img3"></div>
+                    <div class="image-container" id="img4"></div>
+                </div>
+            </div>
+        
         <div id="top">
             <a href="#"><span><i class="fa-solid fa-arrow-up fa-lg"></i></span></a>
         </div>
@@ -214,6 +227,7 @@
         x.style.display="block";
       }
     }
+    
     </script>
     <script>
         $(document).ready(function(){
@@ -228,6 +242,14 @@
             $("#top span").click(function(){
                 $("#menubar li a").removeClass('active');
                 $("#topmenu").toggleClass('active');
+            });
+        });
+        
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#edit span").click(function(){
+                $("#to-edit").toggleClass('hide');
             });
         });
         
