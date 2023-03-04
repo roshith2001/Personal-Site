@@ -214,44 +214,5 @@
         </div>
     </section>
 </body>
-<script>
-    function myFunction() {
-      var x = document.getElementById("menubar");
-      var width = screen.width;
-      if ((width<=720) && (x.style.display === "block")) {
-        x.style.display = "none";
-      } else if(width>=720){
-        x.style.display = "flex";
-      }
-      else{
-        x.style.display="block";
-      }
-    }
-    
-    </script>
-    <script>
-        $(document).ready(function(){
-            $("#menubar li a").click(function(){
-                $("#menubar li a").removeClass('active');
-                $(this).toggleClass('active');
-            });
-            $("#logo").click(function(){
-                $("#menubar li a").removeClass('active');
-                $("#topmenu").toggleClass('active');
-            });
-            $("#top span").click(function(){
-                $("#menubar li a").removeClass('active');
-                $("#topmenu").toggleClass('active');
-            });
-        });
-        
-    </script>
-    <script>
-        $(document).ready(function(){
-            $("#edit span").click(function(){
-                $("#to-edit").toggleClass('hide');
-            });
-        });
-        
-    </script>
+<script src="script.js"></script>
 </html>

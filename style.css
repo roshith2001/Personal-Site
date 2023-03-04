@@ -741,10 +741,27 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg');
-    background-repeat: no-repeat;
     background-position-x: 30%;
     cursor: pointer;
+}
+#img1{
+    background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img2{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#img3{
+    background-image: url('https://thumbs.dreamstime.com/b/wild-flowers-plant-summer-autumn-nature-background-banner-website-55976971.jpg');
+    background-size: cover;
+}
+#img4{
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
+    background-size: cover;
 }
 .image-container:hover{
     opacity: 70%;
