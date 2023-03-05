@@ -386,12 +386,16 @@ h3{
     grid-template-columns: repeat(3,auto);
     grid-gap: 10px;
     justify-items: center;
+   
+
 }
 #image-box{
     width: 90%;
     background-color: white;
     padding: 10px;
     box-sizing: border-box;
+    box-shadow: 0 0 15px 0 rgba(114, 114, 114, 0.6);
+    border-radius: 5px;
 }
 #img-sec{
     width: 100%;
@@ -418,6 +422,9 @@ h3{
     padding: 3px;
     box-sizing: border-box;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgba(114, 114, 114, 0.6);
+    transition: 0.5s ease;
 }
 #details-sec a:hover{
     background: #046A38;
