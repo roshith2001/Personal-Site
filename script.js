@@ -96,4 +96,20 @@ $(document).ready(function() {
     });
 });
 
+window.addEventListener("scroll", function(){
+    const scrollPosition = this.window.scrollY;
+    const threshold = 170;
+
+    const menuItems = document.querySelectorAll('#menubar li a');
+    menuItems.forEach(function(menuItem){
+        const section = document.querySelector(menuItem.getAttribute('href'));
+        if(section.offsetTop <= scrollPosition+threshold &&
+            section.offsetTop + section.offsetHeight > scrollPosition+threshold){
+                menuItem.classList.add('active');
+            }else{
+                menuItem.classList.remove('active');
+            }
+    });
+})
+
 
