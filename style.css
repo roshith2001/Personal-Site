@@ -131,9 +131,10 @@ h3{
 }
 #image img{
     width: 250px;
-    height: 270px;
+    height: 250px;
     border-radius: 50%;
     border: 2px solid #67a788;
+    object-fit: cover;
 }
 #image ul{
     list-style: none;
@@ -253,7 +254,7 @@ h3{
 }
 #T-skills, #S-skills{
     width: 42%;
-    height: 250px;
+    height: 275px;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -753,6 +754,7 @@ form{
     box-shadow: 0 0 15px 0 rgba(114, 114, 114, 0.6);
     border-radius: 5px;
     text-align: center;
+    animation: rotate-revolve 1s linear;
 }
 #top span:hover{
     background: rgba(73, 166, 96,1);
@@ -774,6 +776,17 @@ form{
     box-shadow: 0 0 15px 0 rgba(114, 114, 114, 0.6);
     border-radius: 5px;
     text-align: center;
+    animation: rotate-revolve 1s linear;
+}
+@keyframes rotate-revolve {
+    0%{
+        right: 100%;
+        transform: rotate(0deg);
+    }
+    100%{
+        right: 3%;
+        transform: rotate(1820deg);    
+    }
 }
 #edit span:hover{
     background: rgba(215, 127, 4, 1);
