@@ -431,6 +431,12 @@ h3{
     background: url('Assets/tictactoe_play.jpg');
     background-size: cover;
 }
+#img-sec4{
+    width: 100%;
+    height: 100px;
+    background: url('Assets/todo-app.png');
+    background-size: cover;
+}
 #details-sec h5{
     font-size: 16px;
     margin: 15px 0;
