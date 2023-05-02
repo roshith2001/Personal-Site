@@ -151,12 +151,12 @@
     }
     #project-container{
         width: 90%;
-        display: grid;
-        grid-template-columns: repeat(2,auto);
-        grid-gap: 5%;
+        display: flex;
+        flex-wrap: wrap;
     }
     #image-box{
         width: 100%;
+        margin-bottom: 20px;
     }
     #img-sec{
         background-position-x: 44%;
