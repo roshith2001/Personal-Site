@@ -401,7 +401,7 @@ h3{
     grid-template-columns: repeat(3,auto);
     grid-gap: 10px;
     justify-items: center;
-   
+    margin-bottom: 75px;
 
 }
 #image-box{
@@ -435,6 +435,12 @@ h3{
     width: 100%;
     height: 100px;
     background: url('Assets/todo-app.png');
+    background-size: cover;
+}
+#img-sec5{
+    width: 100%;
+    height: 100px;
+    background: url('Assets/hear-my-10.png');
     background-size: cover;
 }
 #details-sec h5{
