@@ -288,7 +288,7 @@ h3{
 }
 
 .js {
-    width: 80%;
+    width: 85%;
     background-color: #FF671F;
 }
 .js::before{
@@ -298,11 +298,11 @@ h3{
     border-radius: 50%;
     background:#FF671F;
     position: absolute;
-    left: 80%;
+    left: 85%;
     margin-top:-5px;
 }
 .react {
-    width: 70%;
+    width: 80%;
     background-color: #FF1111;
 }
 .react::before{
@@ -312,7 +312,7 @@ h3{
     border-radius: 50%;
     background:#FF1111;
     position: absolute;
-    left: 70%;
+    left: 80%;
     margin-top:-5px;
 }
 .html{
@@ -372,7 +372,7 @@ h3{
     margin-top:-5px;
 }
 .sales{
-    width: 75%;
+    width: 85%;
     background-color: #046A38;
 }
 .sales::before{
@@ -382,7 +382,7 @@ h3{
     border-radius: 50%;
     background:#046A38;
     position: absolute;
-    left: 75%;
+    left: 85%;
     margin-top:-5px;
 }
 #projects{
