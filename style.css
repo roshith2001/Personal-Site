@@ -430,6 +430,7 @@ h3{
     background: url('Assets/tictactoe_play.jpg');
     background-size: cover;
 }
+
 #img-sec4{
     width: 100%;
     height: 100px;
@@ -440,6 +441,12 @@ h3{
     width: 100%;
     height: 100px;
     background: url('Assets/hear-my-10.png');
+    background-size: cover;
+}
+#img-sec6{
+    width: 100%;
+    height: 100px;
+    background: url('Assets/fire-chat.png');
     background-size: cover;
 }
 #details-sec h5{
