@@ -449,6 +449,12 @@ h3{
     background: url('Assets/fire-chat.png');
     background-size: cover;
 }
+#img-sec7{
+    width: 100%;
+    height: 100px;
+    background: url('Assets/travel-app.png');
+    background-size: cover;
+}
 #details-sec h5{
     font-size: 16px;
     margin: 15px 0;
