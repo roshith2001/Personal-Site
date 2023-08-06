@@ -26,10 +26,10 @@ h3{
 }
 #background span{
     width: 100%;
-    height: 500px;
-    background-image: url("Assets/background_hungry.jpg");
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg");
     background-size: cover;
-    background-position-y: 80%;
+    background-position-y: 95%;
     z-index: 1;
     display: flex;
     justify-content: space-around;
@@ -118,7 +118,7 @@ h3{
     align-items: center;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.6) ;
     border-radius: 2px;
-    margin-top: -300px;
+    margin-top: -400px;
     z-index: 2;
 }
 #image{

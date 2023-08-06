@@ -37,7 +37,7 @@ $(document).ready(function() {
     $("#img1").click(function() {
         var imageUrl =
 "https://cdn.pixabay.com/photo/2016/06/16/13/00/rain-stoppers-1461288_1280.jpg";
-        var imageUrl1 = "Assets/background_hungry.jpg";
+        var imageUrl1 = "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg";
         if(isImage1){
             $("#background span").css("background-image", "url(" + imageUrl + ")");
             $("#img1").css("background-image", "url(" + imageUrl1 + ")");
@@ -52,7 +52,7 @@ $(document).ready(function() {
 
     $("#img2").click(function() {
         var imageUrl = "https://cdn.pixabay.com/photo/2013/11/28/10/36/road-220058_1280.jpg";
-        var imageUrl1 = "Assets/background_hungry.jpg";
+        var imageUrl1 = "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg";
         if(isImage1){
             $("#background span").css("background-image", "url(" + imageUrl + ")");
             $("#img2").css("background-image", "url(" + imageUrl1 + ")");
@@ -67,7 +67,7 @@ $(document).ready(function() {
 
     $("#img3").click(function() {
         var imageUrl = "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg";
-        var imageUrl1 = "Assets/background_hungry.jpg";
+        var imageUrl1 = "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg";
         if(isImage1){
             $("#background span").css("background-image", "url(" + imageUrl + ")");
             $("#img3").css("background-image", "url(" + imageUrl1 + ")");
@@ -82,7 +82,7 @@ $(document).ready(function() {
 
     $("#img4").click(function() {
         var imageUrl = "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg";
-        var imageUrl1 = "Assets/background_hungry.jpg";
+        var imageUrl1 = "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg";
         if(isImage1){
             $("#background span").css("background-image", "url(" + imageUrl + ")");
             $("#img4").css("background-image", "url(" + imageUrl1 + ")");
